@@ -107,6 +107,7 @@ body {
     border-width: thin;
     border-style: solid;
     border-color: white;
+    margin-bottom: 5%;
 }
 
 #nomination{
@@ -151,11 +152,12 @@ body {
 #nomination button {
     display: inline-block;
     font-size: 75%;
-    background-color: white);
+    background-color: rgb(208,174,194);
     border-radius: 1em;
     border-width: thin;
     border-style: solid;
     border-color: rgb(29,45,42);
+    margin-bottom: 5%;
 }
 
 fieldset {
