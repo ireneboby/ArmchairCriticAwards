@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    line-height: 1.5em;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+[class*="col-"] {
+    width: 100%;
+    }
+
+[class*="col-2"] {
+    width: 33.33%;
+    }
+
+@media only screen and (min-width: 768px) { /* for desktops and tablets */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+  
+}
+
+body {
+    background-color: white;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    color: #151A1D;
+    overflow: scroll;
+    font-size: 100%;  
+    z-index: 5;
+    margin: auto;
+}
+
+
+.hero {
+    height: 25%;
+    background-color: rgb(35,16,27);
+    text-align: center;
+    padding: 10%;
+    margin: 0%;
+    width:100%;
+    color: rgb(208,174,194);
+    border-bottom-width: 10px;
+    border-bottom-color: rgb(145,99,126);
+    border-bottom-style: solid;
+    
+}
+
+.hero > h1 {
+    font-size: 300%;
+    letter-spacing: 0.3em;
+    word-spacing: 0.8em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#main {
+    overflow: auto;
+}
+
+#search{
+    margin:0%;
+    padding: 5%;
+    align-content: center; 
+    text-align: center;
+    color: rgb(29,45,42);
+}
+
+#result{
+    margin: 0%;
+    padding-bottom: 0%;
+    text-align: left; 
+    color:white; 
+    overflow: scroll;
+}
+
+#result div {
+    width:100%;
+    margin:2% 0% 2% 0%;
+    padding:1% 3% 1% 3%;
+    background-color: rgb(29,45,42);
+    color: white;
+    border-radius: 0.5em;
+}
+
+#result p{
+    display: inline-block;
+    margin-right: 5%;
+}
+ 
+#result button {  
+    display: inline-block; 
+    font-size: 75%;
+    background-color: rgb(208,174,194);
+    border-radius: 1em;
+    border-width: thin;
+    border-style: solid;
+    border-color: white;
+}
+
+#nomination{
+    margin: 0%;
+    padding: 3% 5% 5% 0%;
+    overflow: auto;
+    color: rgb(29,45,42);
+    text-align: center;
+    z-index: 10;
+}
+
+#nomination h1 {
+    width: 100%;
+    color: rgb(29,45,42);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border-bottom-style: solid;
+    border-bottom-width: thick;
+    border-bottom-color: rgb(208,174,194);
+    margin-bottom: 10%;
+    padding: 4%;
+    padding-top: 0%;
+}
+
+#nomination div {
+    align-content: left;
+    width:100%;
+    margin:2% 0% 2% 0%;
+    padding:0%;
+    border-color: rgb(208,174,194);
+    border-width: medium;
+    border-style: solid;
+}
+
+#nomination p{
+    display: inline-block;
+    margin-right: 5%;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+#nomination button {
+    display: inline-block;
+    font-size: 75%;
+    background-color: white);
+    border-radius: 1em;
+    border-width: thin;
+    border-style: solid;
+    border-color: rgb(29,45,42);
+}
+
+fieldset {
+    width: 100%;
+    border-style: solid;
+    border-width: medium;
+    border-color: #63365C;
+    font-size: 100%;
+}
+
+[type="submit"], [type="reset"] {
+    width: 30%;
+    font-size: 75%;
+    background-color: #CA89A5;
+    border-radius: 1em;
+    border-width: thin;
+    border-style: solid;
+    border-color: #63365C
+}
+
+[type="radio"] {
+    font-color: blue;
+}
+
+
