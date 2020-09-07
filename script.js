@@ -5,7 +5,7 @@ const SEARCH = document.querySelector("input[type='search']");
 
 var inputSearch;
 var OMDB_API_URL;
-var request = new XMLHttpRequest();
+var request = new XMLHttpsRequest();
 var nomineeCount = 0;
 
 request.addEventListener("load", function() {		//to manipulate date from OMDb API
