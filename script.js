@@ -83,7 +83,7 @@ function search (event){
 	if (inputSearch==""){
 		alert ("Please Enter a Movie Title");
 	} 
-		var OMDB_API_URL = "http://www.omdbapi.com/?apikey=2879f02f&type=movie&s=" + inputSearch;
+		var OMDB_API_URL = "https://www.omdbapi.com/?apikey=2879f02f&type=movie&s=" + inputSearch;
 		request.open('GET', OMDB_API_URL, true);
 		request.send();
 		
